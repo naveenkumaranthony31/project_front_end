@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+  margin: 0;
+  padding: 0;
   }
+  body{
+    
+    background-image: url(./Companats/Images/background_image.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    font-style: oblique;
+    
+  }
+  .navbar{
+  background-color: white;
+  }
+  .nav_head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(57, 57, 235);
+  }
+  .nav_head1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  .heaad{
+    background-image: url(./Companats/Images/garege.jpg);
+    /* width: 20px;
+    height: 30px; */
+  }
+/* Second_part */
+  .second_part{
+    background-color:rgba(28, 28, 82, 0.568);
+    height:300px;
+    }
+    .second_part_inside{
+      color: white;
+      padding-top: 70px;
+      padding-left: 60px;
+      font-size: 20px;
+    }
+    #box1{
+      background-image: url(./Companats/Images/uk_flag.webp);
+     position: left;
+     padding-left: 30px;
+     background-size: 30px;
+     background-repeat: no-repeat;
+     }
+     .input_box{
+      background-color: rgba(17, 17, 17, 0.699);
+      width: 900px;
+      height: 70px;
+      margin-left: 200px;
+      padding-left: 20px;
+      padding-top: 20px;
+     }
+.btn{
+  margin-left: 10px;
+  height: 32px;
 }
+    /* Third_part */
+    .text-xs{
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .serielnum{
+      background-color: rgb(68, 68, 209);
+      width: 30px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 45%;
+  font-style: bold;
+    }
+    .third_part{
+      background-color: white;
+      height:250px;
+      padding-top: 40px;
+    }
+    .head_third_part{
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+      padding-left: 40%;
+    }
+    .card1{
+      font-size: 15px;
+      text-decoration-color: black;
+      text-align:start;
+      
+    }
+    
+    .third_part1{
+      width: 80%;
+      border: none;
+      padding-left: 70px;
+      display: flex;
+      gap: 70px;
+      font-size: 15px;
+    }
+     .foruth_part{
+      background-color: rgb(13, 13, 59);
+      height:280px;
+      color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+     }
+     .foruth_part1{
+      display: flex;
+    gap:50px
+     }
+     .icon_image{
+      width: 30px;
+     }
+     .foruth_part2{
+      box-sizing: border-box;
+      border: 2px;
+      border-radius: 10px;
+      border-color: bisque;
+     }
+      /* Register_from */
+ .re_section{
+  width: 100%;
+  background-color:white;
+ }
+ .re-container{
+  width: 100%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ }
+.re-container{
+  width: 100%;
+ height: fit-content;
+
+}
+ .re_int{
+  width: 400px;
+ }
+ /* chekbox */
+ .list-group{
+  width: 90%;
+ }
+ .list-check{
+display: flex;
+justify-content: flex-end;
+ }
+ /* payment */
+
+ .bttn{
+  padding-left: 30px;
+  display: flex;
+  gap: 200px;
+  
+ }
+ .submit{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+ }
+ .cancel{
+  background-color: #aa0404;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+ }
+ .col-md-6{
+  margin-bottom: 30px;
+ }
+
+ /* paymentsuccess */
+ .cont-payss{
+ width:900px;
+ padding-left: 300px;
+ padding-top: 100px;
+}
+ .card2{
+  height: 400px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+ }
+ .head_pay{
+  color: green;
+  padding-left: 200px;
+ }
+ .chekmark{
+  padding-top: 100px;
+ }
+ .rowpay{
+  padding-top: 10px;
+  padding-left: 70px;
+ }
+ .btnpay{
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+ }
